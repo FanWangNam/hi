@@ -9,11 +9,11 @@ while guess_number != number:
     print(guess_number)
 
     if guess_number > number:
-        print("Too high - try again: ")
+        print("Too high - try again:")
     elif guess_number < number:
-        print("Too low - try again: ")
+        print("Too low - try again:")
     else:
-        print(f"You guessed it in {guess_count} tries")
+        print(f"You guessed it in {guess_count} tries.")
 
 
 
