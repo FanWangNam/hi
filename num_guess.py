@@ -15,7 +15,7 @@ while guess_number != number:
     elif guess_number == number and guess_count == 1:
         print(f"You guessed it in {guess_count} try.")
     else:
-        print(f"You guessed it in {guess_count} try.")
+        print(f"You guessed it in {guess_count} tries.")
 
 
 
